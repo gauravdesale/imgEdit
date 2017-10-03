@@ -14,6 +14,7 @@ struct _mainData {
 	int blue;
 	int green;
 	int alpha;//if needed lol
+	char* path;
 }
 typedef _mainData bitMapFile;
 typedef bitmapFile* ref;
